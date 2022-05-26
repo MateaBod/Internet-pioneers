@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://solace.ist.rit.edu/~mb4407/140/project2/assets/css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="pioneers.html">PIONEERS</a></li>
+            <li><a href="http.html">HTTP</a></li>
+            <li><a href="topic.html">DNS</a></li>
+            <li><a href="terminology.html">TERMINOLOGY</a></li>
+            <li><a href="references.html">REFERENCES</a></li>
+        </ul>
+    </nav>
+    <div class=" textTop">
+        <h1>DNS</h1>
+    </div>
+
+    <div class="dns-p1">
+        <p>The Domain name system (DNS) is a network service<br> that converts between World Wide Web “name”
+            addresses and numeric Internet addresses.<br>
+            It was developed because humans prefer names rather than numbers
+            so the DNS<br> helped for better communication and overview of the computers.
+        </p>
+    </div>
+    <div class="dns-p2">
+        <p>DNS resolves domain names (letters) to IP addresses(numbers) since the computers only understand
+            numbers.
+            To explain it better I will use an example of a website we are all familiar with.
+            To get to Google we can type in its IP address which is 172.217.166.68 but it is long and hard to remember,
+            therefore we have DNS which makes it a lot easier.
+            By simply typing in google.com the domain name system does the rest of the work.
+            It searches its database and matches the name entered with the corresponding IP address then finally
+            connects us
+            to google.
+        </p>
+    </div>
+    <div class="dns-p3">
+        <p>The structure of the DNS is hierarchical which works as followed.
+            When we search for an IP address it first checks have we already searched for it before, if yes, it
+            automatically finds it locally,
+            if not it goes further to the local DNS server searching for it.
+            If the address is not found there as well, the DNS server continues the search by breaking the request into
+            pieces. It sends the TLD,
+            the last part of the name after the dot (www.google.com) to the TLD server.
+            The google part of the name will send to a name server and so on until it resolves the requested IP address.
+        </p>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>Project 2 &copy; created by Matea Boderistanac</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
